@@ -4,14 +4,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="io.epiclabs.couchbase.bookmars.MainActivity$PlaceholderFragment">
+    tools:context="io.epiclabs.couchbase.bookmarks.MainActivity$PlaceholderFragment">
 
     <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/imageView"
         android:background="@drawable/zengardenwaterfalls"
         android:contentDescription="@string/waterfalldesc"
@@ -24,6 +24,14 @@
         android:id="@+id/bookmarkListView"
         android:layout_below="@+id/section_label"
         android:layout_centerHorizontal="true"
-        android:background="#c0ffffff" />
+        android:background="#c0ffffff" >
 
+        </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/bookmarkTextView" />
 </RelativeLayout>

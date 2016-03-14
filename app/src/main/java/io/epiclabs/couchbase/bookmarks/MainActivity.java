@@ -1,4 +1,4 @@
-package io.epiclabs.couchbase.bookmars;
+package io.epiclabs.couchbase.bookmarks;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -16,8 +16,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ExpandableListView;
-import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -28,10 +26,6 @@ import com.couchbase.lite.android.AndroidContext;
 import com.couchbase.lite.util.Log;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -212,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
             if (bookmarksList != null) {
                 String[] sampleStrings = new String[]{"Url1", "Bookmark1", "Bookmark2"};
                 BookmarksListAdapter bookmarksListAdapter =
-                        new BookmarksListAdapter(getContext(), R.id.bookmarkTextView, sampleStrings);
+                        new BookmarksListAdapter(getContext(), R.layout.bookmarklist, sampleStrings);
                 bookmarksList.setAdapter(bookmarksListAdapter);
             }
         }

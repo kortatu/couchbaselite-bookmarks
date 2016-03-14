@@ -1,4 +1,4 @@
-package io.epiclabs.couchbase.bookmars;
+package io.epiclabs.couchbase.bookmarks;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;

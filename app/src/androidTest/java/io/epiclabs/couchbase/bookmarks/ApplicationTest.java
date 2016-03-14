@@ -1,4 +1,4 @@
-package io.epiclabs.couchbase.bookmars;
+package io.epiclabs.couchbase.bookmarks;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

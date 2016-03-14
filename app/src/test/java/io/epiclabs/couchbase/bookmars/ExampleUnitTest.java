@@ -1,4 +1,4 @@
-package io.epiclabs.couchbase.bookmars;
+package io.epiclabs.couchbase.bookmarks;
 
 import org.junit.Test;
 

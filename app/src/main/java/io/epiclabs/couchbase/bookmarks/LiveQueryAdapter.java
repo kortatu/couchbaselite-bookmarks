@@ -2,7 +2,7 @@
  * Created by Pasin Suriyentrakorn <pasin@couchbase.com> on 2/27/14.
  */
 
-package io.epiclabs.couchbase.bookmars;
+package io.epiclabs.couchbase.bookmarks;
 
 import android.app.Activity;
 import android.content.Context;
